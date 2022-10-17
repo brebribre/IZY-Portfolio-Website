@@ -11793,11 +11793,12 @@ body {
 
     /* Slide */
   .hover05 figure img {
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    max-width: 90%;
+    -webkit-transition: .3s ease-in;
+    transition: .3s ease-in;
   }
   .hover05 figure:hover img {
-    max-width: 90%;
+    max-width: 100%;
     opacity: 90%;
   }
 
