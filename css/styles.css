@@ -11980,3 +11980,49 @@ body {
 }
 
 
+.navbar-img {
+  width: 4rem;
+}
+
+.bg-yellow{
+  background-color: #FAA932;
+}
+
+/*  Rollover image styles  */
+.figure {
+  position: relative;
+  width: 360px; /* can be omitted for a regular non-lazy image */
+  max-width: 100%;
+}
+.figure img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.figure:hover img.image-hover {
+  opacity: 1;
+}
+
+
+.hover1{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  font-weight: 800;
+  background: linear-gradient(to right, #faa932, #faa932 50%, yellow 50%);
+  background-clip:inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+.hover1:hover{
+  background-position: 0 100%;
+}
