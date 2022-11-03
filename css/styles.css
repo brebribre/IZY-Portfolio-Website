@@ -6860,6 +6860,13 @@ textarea.form-control-lg {
 
 .opacity-75 {
   opacity: 0.75 !important;
+  transition: 300ms ease-in-out;
+}
+
+.opacity-75:hover {
+  opacity: 1 !important;
+
+  transition: 300ms ease-in-out;
 }
 
 .opacity-100 {
